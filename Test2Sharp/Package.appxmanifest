@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="1fe6f621-8997-4ac6-bd2e-fbaa77a2bb9d" Publisher="CN=Артем" Version="1.0.0.0" />
+  <Properties>
+    <DisplayName>Test2Sharp</DisplayName>
+    <PublisherDisplayName>Артем</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Test2Sharp.App">
+      <VisualElements DisplayName="Test2Sharp" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="Test2Sharp" ForegroundText="dark" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" WideLogo="Assets\widelogo.png" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+  </Capabilities>
+</Package>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>АРТЕМ-НПК</Machine>
+    <WindowsUser>Артем</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>4E9C5A902C0CDF00E60CA5EBDD13500ED5EBC57157D5F847ABC76C0479C10E5E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1fe6f621-8997-4ac6-bd2e-fbaa77a2bb9d_1.0.0.0_neutral__3hkn4twt7fjhj</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1fe6f621-8997-4ac6-bd2e-fbaa77a2bb9d_3hkn4twt7fjhj!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1fe6f621-8997-4ac6-bd2e-fbaa77a2bb9d</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Артем</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-15T17:53:18.243</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\bin\Debug\Test2Sharp.exe">
+      <PackagePath>Test2Sharp.exe</PackagePath>
+      <Modified>2013-02-16T11:42:41.226</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\bin\Debug\Test2Sharp.pdb">
+      <PackagePath>Test2Sharp.pdb</PackagePath>
+      <Modified>2013-02-16T11:42:41.164</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-13T17:28:07.331</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-13T17:29:14.924</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-13T18:34:17.388</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T17:29:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\Assets\widelogo.png">
+      <PackagePath>Assets\widelogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-13T17:33:43.847</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\Common\ReadMe.txt">
+      <PackagePath>Common\ReadMe.txt</PackagePath>
+      <Modified>2013-02-14T16:33:38.942</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2013-02-14T16:32:48.002</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\bin\Debug\1player.xaml">
+      <PackagePath>1player.xaml</PackagePath>
+      <Modified>2013-02-16T11:42:37.643</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\bin\Debug\Settings.xaml">
+      <PackagePath>Settings.xaml</PackagePath>
+      <Modified>2013-02-15T17:56:56.419</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\bin\Debug\2players.xaml">
+      <PackagePath>2players.xaml</PackagePath>
+      <Modified>2013-02-16T10:24:05.940</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-07-26T14:24:40.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2013-02-15T17:53:15.044</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2013-02-15T17:53:17.984</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

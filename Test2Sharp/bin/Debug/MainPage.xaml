@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="Test2Sharp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Test2Sharp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:ConnectionId='1' Content="Кнопка с сообщением"                         HorizontalAlignment="Left" VerticalAlignment="Top" Margin="515,587,0,0" Width="335" Height="53"/>
+        <GridView HorizontalAlignment="Left" Margin="865,540,0,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+            <GridView.RenderTransform>
+                <CompositeTransform Rotation="20.273"/>
+            </GridView.RenderTransform>
+        </GridView>
+        <Button x:ConnectionId='2' Content="1 Игрок"                        HorizontalAlignment="Left" Margin="515,260,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.526" Height="60" Width="335" FontSize="24"/>
+        <Button x:ConnectionId='3' Content="2 Игрока"                        HorizontalAlignment="Left" Margin="515,361,0,0" VerticalAlignment="Top" Width="335" Height="60" FontSize="24"/>
+        <Button x:ConnectionId='4' Content="Настройки"                        HorizontalAlignment="Left" Margin="515,465,0,0" VerticalAlignment="Top" Width="335" Height="60" FontSize="24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="360,90,0,0" TextWrapping="Wrap" Text="Крестики-нолики" VerticalAlignment="Top" Height="100" Width="670" FontSize="72" FontFamily="Charlemagne Std" FontWeight="Bold"/>
+
+    </Grid>
+</Page>
+
