@@ -36,22 +36,9 @@
             <Button x:Name="backButton" Click="GoBack" IsEnabled="{Binding Frame.CanGoBack, ElementName=pageRoot}" Style="{StaticResource BackButtonStyle}"/>
             <TextBlock x:Name="pageTitle" Grid.Column="1" Text="{StaticResource AppName}" Style="{StaticResource PageHeaderTextStyle}"/>
         </Grid>
-        <Border BorderBrush="#FFF0ECEC" BorderThickness="1" HorizontalAlignment="Left" Height="157" Margin="857,27,0,0" Grid.Row="1" VerticalAlignment="Top" Width="157" Background="#FF3A3939"/>
-        <Border BorderBrush="#FFF0ECEC" BorderThickness="1" HorizontalAlignment="Left" Height="157" Margin="1014,27,0,0" Grid.Row="1" VerticalAlignment="Top" Width="156" Background="#FF3A3939"/>
-        <Border BorderBrush="#FFF0ECEC" BorderThickness="1" HorizontalAlignment="Left" Height="157" Margin="1170,27,0,0" Grid.Row="1" VerticalAlignment="Top" Width="157" Background="#FF3A3939"/>
-        <Border BorderBrush="#FFF0ECEC" BorderThickness="1" HorizontalAlignment="Left" Height="156" Margin="857,184,0,0" Grid.Row="1" VerticalAlignment="Top" Width="157" Background="#FF3A3939"/>
-        <Border BorderBrush="#FFF0ECEC" BorderThickness="1" HorizontalAlignment="Left" Height="156" Margin="1014,184,0,0" Grid.Row="1" VerticalAlignment="Top" Width="156" Background="#FF3A3939"/>
-        <Border BorderBrush="#FFF0ECEC" BorderThickness="1" HorizontalAlignment="Left" Height="156" Margin="1170,184,0,0" Grid.Row="1" VerticalAlignment="Top" Width="157" Background="#FF3A3939"/>
-        <Border BorderBrush="#FFF0ECEC" BorderThickness="1" HorizontalAlignment="Left" Height="157" Margin="600,388,0,0" Grid.Row="1" VerticalAlignment="Top" Width="157" Background="#FF3A3939" RenderTransformOrigin="0.5,0.5">
-            <Border.RenderTransform>
-                <CompositeTransform TranslateX="30" TranslateY="29"/>
-            </Border.RenderTransform>
-        </Border>
-        <Border BorderBrush="#FFF0ECEC" BorderThickness="1" HorizontalAlignment="Left" Height="157" Margin="1014,340,0,0" Grid.Row="1" VerticalAlignment="Top" Width="156" Background="#FF3A3939"/>
-        <Border BorderBrush="#FFF0ECEC" BorderThickness="1" HorizontalAlignment="Left" Height="157" Margin="1170,340,0,0" Grid.Row="1" VerticalAlignment="Top" Width="157" Background="#FF3A3939"/>
-        
-        
-        <ToggleButton x:Name="toggleButton" Click="ToggleButton_Click_1"  HorizontalAlignment="Left" Margin="100,55,0,0" VerticalAlignment="Top" Height="154" Width="154" BorderThickness="0,0,2,2" Background="Transparent" Grid.Row="1"/>
+
+
+        <ToggleButton x:Name="toggleButton" HorizontalAlignment="Left" Margin="100,55,0,0" VerticalAlignment="Top" Height="154" Width="154" BorderThickness="0,0,2,2" Background="Transparent" Grid.Row="1"/>
         <ToggleButton  HorizontalAlignment="Left" Margin="246,55,0,0" VerticalAlignment="Top" Height="154" Width="154" BorderThickness="2,0,2,2" Background="Transparent" Grid.Row="1"/>
         <ToggleButton  HorizontalAlignment="Left" Margin="392,55,0,0" VerticalAlignment="Top" Height="154" Width="154" BorderThickness="2,0,0,2" Background="Transparent" Grid.Row="1"/>
         <ToggleButton  HorizontalAlignment="Left" Margin="100,201,0,0" VerticalAlignment="Top" Height="154" Width="154" BorderThickness="0,2,2,2" Background="Transparent" Grid.Row="1"/>
@@ -60,6 +47,20 @@
         <ToggleButton  HorizontalAlignment="Left" Margin="100,347,0,0" VerticalAlignment="Top" Height="154" Width="154" BorderThickness="0,2,2,0" Background="Transparent" Grid.Row="1"/>
         <ToggleButton  HorizontalAlignment="Left" Margin="246,347,0,0" VerticalAlignment="Top" Height="154" Width="154" BorderThickness="2,2,2,0" Background="Transparent" Grid.Row="1"/>
         <ToggleButton  HorizontalAlignment="Left" Margin="392,347,0,0" VerticalAlignment="Top" Height="154" Width="154" BorderThickness="2,2,0,0" Background="Transparent" Grid.Row="1"/>
+        <Button Margin="1036,94,0,525" Width="154" Height="149" Grid.RowSpan="2">
+            <Button.Content>
+                <Image Source="Assets/Logo.png"/>
+            </Button.Content>
+            
+        </Button>
+        <ToggleSwitch Name="togsw" Header="ToggleSwitch" HorizontalAlignment="Left" Margin="731,395,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <ToggleButton IsChecked="{Binding Path=IsOn, ElementName=togsw, Mode=TwoWay}" Margin="731,201,0,273" Grid.Row="1" Height="154" Width="154">
+            <ToggleButton.Content>
+                <Image Source="Assets/Logo.png"/>
+            </ToggleButton.Content>
+            
+        </ToggleButton>
+        <!--Content="" HorizontalAlignment="Left" Margin="1045,30,0,0" Grid.Row="1" VerticalAlignment="Top"/>-->
 
         <VisualStateManager.VisualStateGroups>
 

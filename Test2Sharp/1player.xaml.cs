@@ -49,9 +49,5 @@ namespace Test2Sharp
         {
         }
 
-        private void ToggleButton_Click_1(object sender, RoutedEventArgs e)
-        {
-
-        }
     }
 }
