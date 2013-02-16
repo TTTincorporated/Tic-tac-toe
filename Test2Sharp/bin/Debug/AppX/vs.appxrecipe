@@ -22,11 +22,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\bin\Debug\Test2Sharp.exe">
       <PackagePath>Test2Sharp.exe</PackagePath>
-      <Modified>2013-02-16T11:42:41.226</Modified>
+      <Modified>2013-02-16T12:02:10.947</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\bin\Debug\Test2Sharp.pdb">
       <PackagePath>Test2Sharp.pdb</PackagePath>
-      <Modified>2013-02-16T11:42:41.164</Modified>
+      <Modified>2013-02-16T12:02:10.884</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
@@ -63,7 +63,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\bin\Debug\1player.xaml">
       <PackagePath>1player.xaml</PackagePath>
-      <Modified>2013-02-16T11:42:37.643</Modified>
+      <Modified>2013-02-16T12:02:05.883</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Артем\Documents\Visual Studio 2012\Projects\Test2Sharp\Test2Sharp\bin\Debug\Settings.xaml">
       <PackagePath>Settings.xaml</PackagePath>

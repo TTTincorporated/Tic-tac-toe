@@ -42,7 +42,11 @@
         <Border BorderBrush="#FFF0ECEC" BorderThickness="1" HorizontalAlignment="Left" Height="156" Margin="857,184,0,0" Grid.Row="1" VerticalAlignment="Top" Width="157" Background="#FF3A3939"/>
         <Border BorderBrush="#FFF0ECEC" BorderThickness="1" HorizontalAlignment="Left" Height="156" Margin="1014,184,0,0" Grid.Row="1" VerticalAlignment="Top" Width="156" Background="#FF3A3939"/>
         <Border BorderBrush="#FFF0ECEC" BorderThickness="1" HorizontalAlignment="Left" Height="156" Margin="1170,184,0,0" Grid.Row="1" VerticalAlignment="Top" Width="157" Background="#FF3A3939"/>
-        <Border BorderBrush="#FFF0ECEC" BorderThickness="1" HorizontalAlignment="Left" Height="157" Margin="600,388,0,0" Grid.Row="1" VerticalAlignment="Top" Width="157" Background="#FF3A3939" RenderTransformOrigin="0.5,0.5" RenderTransform="{Binding ClickMode, ElementName=toggleButton}"/>
+        <Border BorderBrush="#FFF0ECEC" BorderThickness="1" HorizontalAlignment="Left" Height="157" Margin="600,388,0,0" Grid.Row="1" VerticalAlignment="Top" Width="157" Background="#FF3A3939" RenderTransformOrigin="0.5,0.5">
+            <Border.RenderTransform>
+                <CompositeTransform TranslateX="30" TranslateY="29"/>
+            </Border.RenderTransform>
+        </Border>
         <Border BorderBrush="#FFF0ECEC" BorderThickness="1" HorizontalAlignment="Left" Height="157" Margin="1014,340,0,0" Grid.Row="1" VerticalAlignment="Top" Width="156" Background="#FF3A3939"/>
         <Border BorderBrush="#FFF0ECEC" BorderThickness="1" HorizontalAlignment="Left" Height="157" Margin="1170,340,0,0" Grid.Row="1" VerticalAlignment="Top" Width="157" Background="#FF3A3939"/>
         
